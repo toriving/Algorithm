@@ -1,5 +1,5 @@
 # insertion sort
-def insert_sort(list): #O(n^2)
+def insert_sort(list): #O(n^2)  
     for i in range(1, len(list)):
         j = i - 1
         key = list[i]
